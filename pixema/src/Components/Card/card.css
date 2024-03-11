@@ -1,0 +1,22 @@
+.post {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.post-img_img {
+  width: 100%;
+  border-radius: 10px;
+}
+.post-content {
+  color: #fff;
+  text-align: center;
+}
+.post-date {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 430px) {
+  .post {
+    width: 90%;
+  }
+}

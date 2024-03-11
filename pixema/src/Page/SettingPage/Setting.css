@@ -1,0 +1,50 @@
+.setting-wrapper {
+  display: flex;
+}
+.setting-colum {
+  width: 80%;
+}
+.setting-colum {
+  color: #fff;
+}
+.setting-border {
+  display: flex;
+  background-color: #323537;
+  border-radius: 25px;
+  padding: 15px 40px;
+}
+.setting-data {
+  width: 45%;
+}
+.setting-data h2 {
+  margin: none;
+}
+.setting-data input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(80, 82, 83);
+  color: #181718;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.setting-border-mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #323537;
+  border-radius: 25px;
+  padding: 15px 40px;
+}
+.setting-mode span {
+  color: #fff;
+}
+.setting-mode p {
+  color: #afb2b6;
+}
+@media (max-width: 770px) {
+  .setting-colum {
+    width: 100%;
+  }
+}

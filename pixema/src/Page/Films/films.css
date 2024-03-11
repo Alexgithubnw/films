@@ -1,0 +1,33 @@
+.films-wrapper {
+  display: flex;
+}
+.films-main {
+  width: 80%;
+  display: block;
+  align-items: center;
+}
+.Films-main-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-films {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #7b61ff;
+  color: var(--header-text-color: #fff);
+  font-size: 24px;
+  margin: auto;
+}
+.films-main-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 770px) {
+  .films-main {
+    width: 100%;
+  }
+  .Films-main-card {
+    justify-content: center;
+  }
+}
